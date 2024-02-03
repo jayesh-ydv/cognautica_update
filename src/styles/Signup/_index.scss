@@ -1,0 +1,93 @@
+.signup-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+
+  .signup-wrapper-box {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 30%;
+      height: fit-content;
+    }
+
+    .signup-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+
+      // signupform_box
+      .signupform_box {
+        width: 500px;
+        margin: 20px 0px;
+
+        form {
+          button {
+            width: 100%;
+          }
+        }
+
+        .form-bottom-links {
+          margin: 5px 0px;
+          display: flex;
+          width: 500px;
+          justify-content: space-between;
+        }
+      }
+
+      // signupform_box
+
+      .signup-head-wrapper {
+        width: 500px;
+        display: block;
+        position: relative;
+
+        .signup-wrapper-box {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .signup-wrapper-img {
+          margin: 10px 0px;
+          display: block;
+          position: relative;
+        }
+
+        .signup-title {
+          display: block;
+          position: relative;
+        }
+
+        .sign-google-btn {
+          display: block;
+          position: relative;
+
+          button {
+            width: 100% !important;
+            margin: 10px 0px;
+
+            a {
+              color: black !important;
+              font-weight: bold;
+            }
+          }
+
+          a {
+            width: 100%;
+            text-decoration: none;
+            letter-spacing: 0px;
+            color: rgba(50, 47, 47, 0.6);
+          }
+        }
+      }
+    }
+  }
+}
